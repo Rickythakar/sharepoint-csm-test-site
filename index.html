@@ -3,20 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A fictional, native-web-part-ready SharePoint landing page mockup for a Customer Success Pilot hub." />
-    <title>Customer Success Pilot Hub — SharePoint Mockup</title>
+    <meta name="description" content="An internal Customer Success resource hub for tools, procedures, and team updates." />
+    <title>Customer Success Hub</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="prototype-banner" role="note">
-      <strong>PLANNING MOCKUP</strong>
-      <span>Fictional content only · Designed for native SharePoint web parts</span>
-    </div>
-
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Customer Success Pilot Hub home">
+      <a class="brand" href="#top" aria-label="Customer Success Hub home">
         <span class="brand-mark" aria-hidden="true">CS</span>
-        <span><strong>Customer Success</strong><small>Pilot Workspace</small></span>
+        <span><strong>Customer Success</strong><small>Resource Center</small></span>
       </a>
       <nav aria-label="Primary navigation">
         <a class="active" href="#top">Home</a>
@@ -33,32 +28,56 @@
     <main id="top">
       <section class="page-intro section-shell" aria-labelledby="page-title">
         <div>
-          <p class="section-label">CUSTOMER SUCCESS PILOT</p>
-          <h1 id="page-title">Pilot Hub</h1>
-          <p class="intro-description">Find the current tools, procedures, and updates needed to support the pilot.</p>
+          <p class="section-label">TEAM RESOURCE CENTER</p>
+          <h1 id="page-title">Customer Success Hub</h1>
+          <p class="intro-description">One place for current tools, operating procedures, and team updates.</p>
         </div>
         <div class="governance-note" aria-label="Sample page governance details">
-          <span><small>PAGE OWNER</small>Pilot Operations</span>
+          <span><small>PAGE OWNER</small>CS Operations</span>
           <span><small>REVIEW CADENCE</small>Monthly</span>
         </div>
       </section>
 
       <section class="quick-section section-shell" id="quick-links" aria-labelledby="quick-title">
         <div class="section-heading">
-          <div><h2 id="quick-title">Start here</h2><p>Frequently used tools for day-to-day pilot work.</p></div>
+          <div><h2 id="quick-title">Start here</h2><p>Frequently used tools for day-to-day work.</p></div>
         </div>
         <div class="quick-grid">
-          <a class="quick-card" href="#" aria-label="Pilot Workbook placeholder link"><span>WORKBOOK</span><strong>Pilot Workbook</strong><small>Track activity, actions, and outcomes</small></a>
+          <a class="quick-card" href="#" aria-label="Customer Success Workbook placeholder link"><span>WORKBOOK</span><strong>Customer Success Workbook</strong><small>Track activity, actions, and outcomes</small></a>
           <a class="quick-card" href="#" aria-label="Partner Survey placeholder link"><span>FORM</span><strong>Partner Survey</strong><small>Collect structured partner feedback</small></a>
-          <a class="quick-card" href="#" aria-label="Discovery Guide placeholder link"><span>GUIDE</span><strong>Discovery Guide</strong><small>Prepare for pilot conversations</small></a>
+          <a class="quick-card" href="#" aria-label="Discovery Guide placeholder link"><span>GUIDE</span><strong>Discovery Guide</strong><small>Prepare for customer conversations</small></a>
           <a class="quick-card" href="#" aria-label="Call Companion placeholder link"><span>REFERENCE</span><strong>Call Companion</strong><small>Use during customer and partner calls</small></a>
+        </div>
+      </section>
+
+      <section class="onboarding section-shell" aria-labelledby="onboarding-title">
+        <div class="onboarding-intro">
+          <span>NEW TEAM MEMBERS</span>
+          <h2 id="onboarding-title">New to the team?</h2>
+          <p>Use these resources to understand how the team works and get productive quickly.</p>
+        </div>
+        <div class="onboarding-links">
+          <a href="#"><strong>Customer Success Overview</strong><small>Learn the team’s purpose and operating model</small></a>
+          <a href="#"><strong>Getting Started Checklist</strong><small>Complete the essential first-week steps</small></a>
+          <a href="#"><strong>Team Contacts &amp; Responsibilities</strong><small>Know who owns what and where to get help</small></a>
+        </div>
+      </section>
+
+      <section class="tools-section section-shell" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <div><h2 id="tools-title">Knowledge &amp; dashboards</h2><p>Shared reference material and regularly used reporting tools.</p></div>
+        </div>
+        <div class="tool-grid">
+          <a class="quick-card" href="#" aria-label="Knowledge Base placeholder link"><span>KNOWLEDGE</span><strong>Knowledge Base</strong><small>Browse shared how-to and reference documents</small></a>
+          <a class="quick-card" href="#" aria-label="Power BI Dashboards placeholder link"><span>REPORTING</span><strong>Power BI Dashboards</strong><small>Open regularly used performance dashboards</small></a>
+          <a class="quick-card" href="#" aria-label="Netlify Dashboards placeholder link"><span>OPERATIONS</span><strong>Netlify Dashboards</strong><small>Access and organize site operations dashboards</small></a>
         </div>
       </section>
 
       <section class="section-shell split-section" id="sops" aria-label="Guidance and updates">
         <div class="content-panel" aria-labelledby="sops-title">
           <div class="panel-heading">
-            <div><h2 id="sops-title">Common SOPs</h2><p>Approved procedures used most often by the pilot team.</p></div>
+            <div><h2 id="sops-title">Common SOPs</h2><p>Approved procedures used most often by the team.</p></div>
             <a href="#">View all SOPs</a>
           </div>
           <div class="library-list" role="table" aria-label="Sample common SOPs">
@@ -76,32 +95,31 @@
             <a href="#">View all</a>
           </div>
           <div class="update-list">
-            <a href="#"><time datetime="2026-08-28">AUG 28</time><span><strong>Pilot Escalation Path</strong><small>New standard operating procedure</small></span></a>
+            <a href="#"><time datetime="2026-08-28">AUG 28</time><span><strong>Escalation Path</strong><small>New standard operating procedure</small></span></a>
             <a href="#"><time datetime="2026-08-26">AUG 26</time><span><strong>Meeting Notes Standard</strong><small>New team guidance</small></span></a>
             <a href="#"><time datetime="2026-08-22">AUG 22</time><span><strong>Feedback Triage Guide</strong><small>Revised procedure</small></span></a>
           </div>
-          <div class="automation-note"><strong>Designed to stay current</strong><p>This area represents a Highlighted Content web part sorted by most recently changed.</p></div>
         </aside>
       </section>
 
       <section class="section-shell recent-section" aria-labelledby="recent-title">
         <div class="section-heading horizontal-heading">
-          <div><h2 id="recent-title">Recently updated files</h2><p>Changes from the pilot document library.</p></div>
+          <div><h2 id="recent-title">Recently updated files</h2><p>Changes from the Customer Success document library.</p></div>
           <a href="#">Open document library</a>
         </div>
         <div class="file-table" role="table" aria-label="Sample recently updated files">
           <div class="file-header" role="row"><span role="columnheader">Name</span><span role="columnheader">Modified</span><span role="columnheader">Modified by</span></div>
-          <a class="file-row" role="row" href="#"><span role="cell"><strong>Pilot Activity Tracker</strong><small>Excel workbook</small></span><span role="cell">Today, 9:42 AM</span><span role="cell">Sample Owner</span></a>
-          <a class="file-row" role="row" href="#"><span role="cell"><strong>Discovery Conversation Guide</strong><small>Word document</small></span><span role="cell">Yesterday</span><span role="cell">Sample Editor</span></a>
-          <a class="file-row" role="row" href="#"><span role="cell"><strong>Pilot Readout Template</strong><small>PowerPoint presentation</small></span><span role="cell">Aug 25</span><span role="cell">Sample Owner</span></a>
-          <a class="file-row" role="row" href="#"><span role="cell"><strong>Program Overview</strong><small>PDF document</small></span><span role="cell">Aug 21</span><span role="cell">Sample Editor</span></a>
+          <a class="file-row" role="row" href="#"><span role="cell"><strong>Customer Success Activity Tracker</strong><small>Excel workbook</small></span><span role="cell">Today, 9:42 AM</span><span role="cell">CS Operations</span></a>
+          <a class="file-row" role="row" href="#"><span role="cell"><strong>Discovery Conversation Guide</strong><small>Word document</small></span><span role="cell">Yesterday</span><span role="cell">Enablement Team</span></a>
+          <a class="file-row" role="row" href="#"><span role="cell"><strong>Program Readout Template</strong><small>PowerPoint presentation</small></span><span role="cell">Aug 25</span><span role="cell">CS Operations</span></a>
+          <a class="file-row" role="row" href="#"><span role="cell"><strong>Program Overview</strong><small>PDF document</small></span><span role="cell">Aug 21</span><span role="cell">Enablement Team</span></a>
         </div>
       </section>
 
       <section class="resources section-shell" id="resources" aria-labelledby="resources-title">
-        <div class="section-heading"><div><h2 id="resources-title">Browse resources</h2><p>Open the part of the pilot library you need.</p></div></div>
+        <div class="section-heading"><div><h2 id="resources-title">Browse resources</h2><p>Open the part of the Customer Success library you need.</p></div></div>
         <div class="resource-grid">
-          <a href="#"><strong>Templates</strong><small>Reusable pilot materials</small></a>
+          <a href="#"><strong>Templates</strong><small>Reusable team materials</small></a>
           <a href="#"><strong>Training</strong><small>Guides and recordings</small></a>
           <a href="#"><strong>Meeting Notes</strong><small>Team decisions and recaps</small></a>
           <a href="#"><strong>Reporting</strong><small>Readouts and scorecards</small></a>
@@ -109,18 +127,8 @@
         </div>
       </section>
 
-      <section class="build-map section-shell" aria-labelledby="build-map-title">
-        <div><span>SHAREPOINT BUILD MAP</span><h2 id="build-map-title">Every section uses a native web part.</h2></div>
-        <ul>
-          <li><strong>Page introduction</strong><span>Banner + Text</span></li>
-          <li><strong>Start here</strong><span>Quick Links · Grid</span></li>
-          <li><strong>SOPs and files</strong><span>Document Library</span></li>
-          <li><strong>Updates</strong><span>Highlighted Content</span></li>
-          <li><strong>Resources</strong><span>Quick Links · Compact</span></li>
-        </ul>
-      </section>
     </main>
 
-    <footer><span><strong>Customer Success Pilot Hub</strong> · Planning mockup</span><span>No custom code or production connections</span></footer>
+    <footer><span><strong>Customer Success Hub</strong> · Internal resources</span><span>Managed by Customer Success Operations</span></footer>
   </body>
 </html>

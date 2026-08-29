@@ -17,6 +17,8 @@ The page demonstrates a polished, low-maintenance information architecture using
 | --- | --- |
 | Page introduction | Banner and Text web parts in a one-column section |
 | Start here | Quick Links web part using Grid layout |
+| New to the team | Text and Quick Links web parts in a two-column section |
+| Knowledge & dashboards | Quick Links web part using Grid layout |
 | Common SOPs | Document Library web part or a saved library view |
 | What's new | Highlighted Content web part sorted by recently changed |
 | Recently updated files | Document Library or Highlighted Content web part |
