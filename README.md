@@ -1,6 +1,12 @@
 # SharePoint Test Site
 
-A standalone HTML/CSS mock landing-page shell for planning a **Customer Success Pilot SharePoint hub**. The visual system is intentionally constrained to layouts and components that can be recreated with native SharePoint modern-page web parts.
+A standalone HTML/CSS mock landing-page shell for planning a **Customer Success SharePoint resource hub**. The visual system is intentionally constrained to layouts and components that can be recreated with native SharePoint modern-page web parts.
+
+## Live prototype
+
+[Open the Customer Success Hub mockup](https://rickythakar.github.io/sharepoint-test-site/)
+
+The hosted page is a presentation prototype only. It contains fictional placeholder content and is not connected to company systems or data.
 
 The page demonstrates a polished, low-maintenance information architecture using familiar native SharePoint concepts:
 
