@@ -1,15 +1,28 @@
 # SharePoint Test Site
 
-A standalone HTML/CSS mock landing-page shell for planning a **Customer Success Pilot SharePoint hub**.
+A standalone HTML/CSS mock landing-page shell for planning a **Customer Success Pilot SharePoint hub**. The visual system is intentionally constrained to layouts and components that can be recreated with native SharePoint modern-page web parts.
 
 The page demonstrates a polished, low-maintenance information architecture using familiar native SharePoint concepts:
 
-- Hero and pilot summary
+- Page banner and governance details
 - Quick Links
 - Common SOPs
 - New SOPs / What's New
 - Recently Updated Files
 - General Resources
+
+## SharePoint build map
+
+| Mockup section | Native SharePoint implementation |
+| --- | --- |
+| Page introduction | Banner and Text web parts in a one-column section |
+| Start here | Quick Links web part using Grid layout |
+| Common SOPs | Document Library web part or a saved library view |
+| What's new | Highlighted Content web part sorted by recently changed |
+| Recently updated files | Document Library or Highlighted Content web part |
+| Browse resources | Quick Links web part using Compact layout |
+
+The layout uses ordinary one-column and two-column sections. It does not depend on a Communication-site-only full-width section, custom JavaScript, embedded HTML, or a SharePoint Framework web part.
 
 ## Important
 
